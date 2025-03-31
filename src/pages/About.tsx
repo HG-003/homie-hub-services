@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ShieldCheck, Users, Award, Briefcase } from 'lucide-react';
 import Navbar from '@/components/Navbar';
@@ -6,27 +7,27 @@ import Footer from '@/components/Footer';
 const team = [
   {
     name: 'Ritika Bansal',
-    role: 'CEO & Co-Founder',
-    bio: 'Leads the company vision and strategy with over 10 years of experience in home services.',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    role: 'Team Member',
+    bio: 'Contributes to the company vision and strategy with expertise in home services.',
+    image: '/lovable-uploads/19e9f938-c320-41c8-b6ed-6020e05a7d54.png',
   },
   {
     name: 'Harsh Garg',
-    role: 'COO & Co-Founder',
-    bio: 'Oversees daily operations and ensures service excellence across all departments.',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
+    role: 'Team Member',
+    bio: 'Focuses on operations and ensures service excellence across all departments.',
+    image: '/lovable-uploads/d2a59c89-22d1-44ac-bcbe-9c035f3e0e3b.png',
   },
   {
     name: 'Karan Kumar',
-    role: 'CTO',
+    role: 'Team Member',
     bio: 'Expert in technology solutions that connect customers with service providers seamlessly.',
-    image: 'https://randomuser.me/api/portraits/men/91.jpg',
+    image: '/lovable-uploads/51cba0b9-293c-4961-9971-de635051f5c1.png',
   },
   {
     name: 'Saanya',
-    role: 'Head of Customer Experience',
+    role: 'Team Member',
     bio: 'Dedicated to ensuring every customer receives exceptional service and support.',
-    image: 'https://randomuser.me/api/portraits/women/68.jpg',
+    image: '/lovable-uploads/8c9eedc8-b309-4255-aa1a-12b31749b136.png',
   },
 ];
 
@@ -63,7 +64,7 @@ const About: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">About Homie Services</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Your trusted partner for all home service needs since 2020.
+            Your trusted partner for all home service needs since 2025.
           </p>
         </div>
       </section>
@@ -75,7 +76,7 @@ const About: React.FC = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Homie Services began with a simple idea: make home services accessible, affordable, and reliable for everyone. Founded in 2020 by a group of friends who experienced firsthand the challenges of finding trustworthy service providers, we set out to create a solution.
+                Homie Services began with a simple idea: make home services accessible, affordable, and reliable for everyone. Founded in 2025 by a group of friends who experienced firsthand the challenges of finding trustworthy service providers, we set out to create a solution.
               </p>
               <p className="text-gray-600 mb-4">
                 What started as a small operation with just five service professionals has grown into a network of over 200 verified experts across multiple service categories. Our journey has been guided by our commitment to quality, trust, and customer satisfaction.
@@ -93,8 +94,8 @@ const About: React.FC = () => {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-secondary p-6 rounded-lg shadow-lg">
-                <p className="text-2xl font-bold text-gray-800">3+ Years</p>
-                <p className="text-gray-700">of excellent service</p>
+                <p className="text-2xl font-bold text-gray-800">Since 2025</p>
+                <p className="text-gray-700">providing excellent service</p>
               </div>
             </div>
           </div>
