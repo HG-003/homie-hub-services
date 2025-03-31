@@ -75,8 +75,8 @@ const Contact: React.FC = () => {
                 <Mail className="text-primary w-6 h-6" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="text-gray-600 mb-2">info@homieservices.com</p>
-              <p className="text-gray-600">support@homieservices.com</p>
+              <p className="text-gray-600 mb-2">ritika193bansal@gmail.com</p>
+              <p className="text-gray-600">harshji93061@gmail.com</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -85,9 +85,9 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Address</h3>
               <p className="text-gray-600">
-                123 Main Street, 
+                Rayat bahra university, 
                 <br />
-                New Delhi, 110001, 
+                Kharar, Punjab, 140301, 
                 <br />
                 India
               </p>

@@ -55,9 +55,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>Email: info@homieservices.com</li>
+              <li>Email: ritika193bansal@gmail.com, harshji93061@gmail.com</li>
               <li>Phone: 8091275686, 9053022089</li>
-              <li>Address: Main Street, New Delhi, India</li>
+              <li>Address: Rayat bahra university, Kharar, Punjab, 140301, India</li>
             </ul>
           </div>
         </div>
