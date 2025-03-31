@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Star, Filter, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -16,7 +15,7 @@ const reviewsData = [
     date: '2023-10-15',
     rating: 5,
     comment: 'The plumber was punctual, professional, and solved my issue quickly. He explained everything clearly and even gave me tips on how to prevent the issue in the future. Will definitely use this service again!',
-    response: 'Thank you for your kind words, Priya! We're glad we could help and look forward to serving you again.'
+    response: 'Thank you for your kind words, Priya! We are glad we could help and look forward to serving you again.'
   },
   {
     id: 2,
@@ -34,7 +33,7 @@ const reviewsData = [
     date: '2023-10-05',
     rating: 4,
     comment: 'The housekeeping team did a thorough job. My home looks and feels fresh again. They were professional and efficient, though they arrived a bit later than scheduled.',
-    response: 'Thank you for your feedback, Ananya. We apologize for the delay and have noted this to improve our scheduling. We're happy that you were pleased with the cleaning itself!'
+    response: 'Thank you for your feedback, Ananya. We apologize for the delay and have noted this to improve our scheduling. We are happy that you were pleased with the cleaning itself!'
   },
   {
     id: 4,
@@ -52,7 +51,7 @@ const reviewsData = [
     date: '2023-10-10',
     rating: 3,
     comment: 'The car cleaning was good but not exceptional. There were a few spots missed and I had to point them out. The cleaner was friendly and fixed the issues when I mentioned them.',
-    response: 'We appreciate your honest feedback, Neha. We're continuously training our team to ensure consistent quality and will use your comments to improve our car cleaning service.'
+    response: 'We appreciate your honest feedback, Neha. We are continuously training our team to ensure consistent quality and will use your comments to improve our car cleaning service.'
   },
   {
     id: 6,
@@ -79,7 +78,7 @@ const reviewsData = [
     date: '2023-09-25',
     rating: 5,
     comment: 'Exceptional work by the carpenter who built our custom shelves. The attention to detail was impressive and the finished product exceeded our expectations.',
-    response: 'Thank you for the wonderful review, Sanjay! We're delighted that you're happy with your custom shelves. Your carpenter will be thrilled to hear your feedback.'
+    response: 'Thank you for the wonderful review, Sanjay! We are delighted that you are happy with your custom shelves. Your carpenter will be thrilled to hear your feedback.'
   },
 ];
 

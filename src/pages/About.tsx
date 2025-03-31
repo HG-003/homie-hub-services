@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ShieldCheck, Users, Award, Briefcase } from 'lucide-react';
 import Navbar from '@/components/Navbar';
@@ -45,7 +44,7 @@ const values = [
   {
     icon: Award,
     title: 'Excellence',
-    description: 'We're committed to exceeding expectations with professional, high-quality workmanship.'
+    description: 'We are committed to exceeding expectations with professional, high-quality workmanship.'
   },
   {
     icon: Briefcase,
