@@ -105,7 +105,7 @@ const Index: React.FC = () => {
                 </Button>
               </Link>
               <Link to="/services">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary font-semibold py-6 px-8 text-lg">
+                <Button variant="outline" size="lg" className="bg-transparent border-white text-white hover:bg-white/10 font-semibold py-6 px-8 text-lg">
                   Explore Services
                 </Button>
               </Link>
