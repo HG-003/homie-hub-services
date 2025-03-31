@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Wrench, Zap, Hammer, Spray, Car, PaintBucket, Paintbrush, Scissors,
+  Wrench, Zap, Hammer, Brush, Car, PaintBucket, Paintbrush, Scissors,
   Shovel, Fan, Thermometer, Waves
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -34,7 +34,7 @@ const services = [
   {
     id: 'housekeeping',
     title: 'Housekeeping',
-    icon: Spray,
+    icon: Brush,
     description: 'Thorough cleaning and housekeeping services for a spotless home.',
     features: ['Deep cleaning', 'Regular maintenance', 'Move-in/out cleaning', 'Special event prep']
   },
